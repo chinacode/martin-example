@@ -30,6 +30,7 @@ public class LongestCommonSubsequence {
         int m = X.length;
         int n = Y.length;
 
+        System.err.println(X.length + " " + Y.length );
         System.out.println("Length of LCS is" + " " +
                 lcs.lcs(X, Y, m, n));
     }
